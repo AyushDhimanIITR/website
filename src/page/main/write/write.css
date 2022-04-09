@@ -1,0 +1,51 @@
+.write{
+    padding-top: 50px;
+}
+
+.form{
+    position: relative;
+}
+
+.formImg{
+    margin-left: 150px;
+    width: 80vw;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.formGrp{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;   
+}
+
+.inputtitle{
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+}
+
+#inputfile{
+    font-size: 20px;
+}
+
+.inputdesc{
+    font-size: 20px;
+    height: 100vh;  
+}
+
+.submit{
+    position: absolute;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    top: 20px;
+    right: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
