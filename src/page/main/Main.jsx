@@ -9,8 +9,8 @@ export default function Main() {
         <Header/>
     <div className="home">
         <Post/>
+        <Post />
         <Sidebar/>
-    
     </div>
     </>
   )
