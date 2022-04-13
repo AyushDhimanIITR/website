@@ -21,18 +21,20 @@ function App() {
         <Route exact path="/">
           <Main />
         </Route>
-        <Route path="/post">
+        <Route exaxt path="/post">
           <Main />
         </Route>
-        
-        <Route path="/login">{currentUser ? <Main /> : <Login />}</Route>
+        <Route exact path="/login">
+          <Login />
+        </Route>
+        {/* <Route path="/login">{currentUser ? <Main /> : <Login />}</Route>
         <Route path="/post/:id">
           <Single />
         </Route>
         <Route path="/write">{currentUser ? <Write /> : <Login />}</Route>
         <Route path="/setting">
           {currentUser ? <Setting /> : <Login />}
-        </Route>
+        </Route> */}
       </Switch>
     </Router>
   );
